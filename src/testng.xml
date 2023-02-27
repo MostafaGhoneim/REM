@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+<test name="test1">
+<parameter name="url" value="http://10.0.20.77:9080/E-Remittance/faces/xhtml/home.xhtml"/>
+    <parameter name="username" value="rem2"/>
+    <parameter name="password" value="P@$$w0rd1"></parameter>
+
+
+
+<classes>
+    <class name = "Login" />
+
+</classes>
+
+
+
+</test>
+</suite>
