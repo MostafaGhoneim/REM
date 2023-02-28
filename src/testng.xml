@@ -4,12 +4,12 @@
 <test name="test1">
 <parameter name="url" value="http://10.0.20.77:9080/E-Remittance/faces/xhtml/home.xhtml"/>
     <parameter name="username" value="rem2"/>
-    <parameter name="password" value="P@$$w0rd1"></parameter>
+    <parameter name="password" value="P@$$w0rd1"/>
 
 
 
 <classes>
-    <class name = "Login" />
+    <class name = "com.asset.reme.Login" />
 
 </classes>
 
